@@ -408,18 +408,18 @@ ul {
   margin-top: 20px;
 }
 
-.footer {
+.plan {
   margin-top: 150px;
 }
 
-.footer__title {
+.plan__title {
   font-weight: 700;
   font-size: 60px;
   line-height: 1.2;
   color: #000;
 }
 
-.footerbutton {
+.planbutton {
   background-color: #f7f7fb;
   color: #000;
   border: solid 5px #f7f7fb;
@@ -434,12 +434,12 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footerbutton:hover, .footerbutton:focus {
+.planbutton:hover, .planbutton:focus {
   background-color: #5454d4;
   color: #ffffff;
 }
 
-.footer__bigbutton {
+.plan__bigbutton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -454,4 +454,101 @@ ul {
 .rightbutton {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.footer {
+  margin-top: 150px;
+  margin-bottom: 174px;
+}
+
+.tarif__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.tarif__title {
+  margin-top: 34px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--textcolor);
+}
+
+.month {
+  font-size: 12px;
+}
+
+.tarif__price {
+  text-align: center;
+  margin-top: 22px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1;
+  color: #000;
+}
+
+.tarif__list2 {
+  margin-top: 28px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.tarif__item {
+  margin-right: 18px;
+  width: 330px;
+  height: 100%;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: color 250ms linear, background-color 250ms linear;
+  transition: color 250ms linear, background-color 250ms linear;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tarif__item:last-child {
+  margin-right: 0;
+}
+
+.tarif__item:hover, .tarif__item:focus {
+  color: #fff;
+  height: 110%;
+  background-color: #ff7143;
+}
+
+.tarif__item2 {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 2.9;
+}
+
+.tarif__item2:first-child {
+  margin-top: 0;
+}
+
+.buttontarif {
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 27px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 285px;
+  background-color: #fff;
+  color: #5454d4;
+  border: 1px solid #eae9f2;
+  border-radius: 10px;
+  -webkit-transition: color 250ms linear, background-color 250ms linear;
+  transition: color 250ms linear, background-color 250ms linear;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.buttontarif:hover, .buttontarif:focus {
+  color: #fff;
+  background-color: #9f3919;
+  border-color: #9f3919;
 }
