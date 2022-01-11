@@ -14,7 +14,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  color: var(--textcolor);
 }
 
 .month {
@@ -28,6 +27,12 @@
   font-size: 60px;
   line-height: 1;
   color: #000;
+  transition: color 250ms linear, background-color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
 }
 
 .tarif__list2 {

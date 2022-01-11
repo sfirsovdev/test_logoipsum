@@ -11,6 +11,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="shortcut icon" href="/images/favicon/icons8-глобус-48.png" type="image/x-icon">
 </head>
 <body>
 <header class="header">
@@ -62,7 +63,9 @@
     </div>
     </div>
     <div class="hero__img">
-    <img src="./images/hero/Hero3D.jpg" alt="мужик на скейте"> </img>
+    <img srcset="./images/1x2x/hero/Hero3D_1x.jpg 1x,
+                    ./images/1x2x/hero/Hero3D_2x.jpg 2x," src="./images/1x2x/hero/Hero3D_1x.jpg"
+        alt="мужик на скейте" />
     </div>
         </div>
 </section>
@@ -118,7 +121,9 @@
 <section class="subscription">
     <div class="container block">
         <div class="subscription__img">
-            <img src="./images/subscription/Content Image 02.jpg" alt="мужик с карандашом"> </img>
+            <img srcset="./images/1x2x/subscrition/ContentImage02_1x.jpg 1x,
+                                ./images/1x2x/subscrition/ContentImage02_2x.jpg 2x," src="./images/1x2x/subscrition/ContentImage02_1x.jpg"
+                alt="мужик c карандашом" />
         </div>
         <div class="subscription__block">
             <h1 class="subscription__title">Subscription index</h1>
@@ -143,7 +148,9 @@
         </div>
         </div>
         <div class="metrics__img">
-            <img src="./images/metrics/Content Image.jpg" alt="мужик с планшетом"> </img>
+        <img srcset="./images/1x2x/metrics/Content Image_1x.jpg 1x,
+                                        ./images/1x2x/metrics/Content Image_2x.jpg 2x,"
+            src="./images/1x2x/metrics/Content Image_1x.jpg" alt="мужик c планшетом" />
         </div>
     </div>
 </section>
@@ -155,7 +162,9 @@
         <ul class="tools__list">
             <li class="tools__item">
             <div class="tools__img">
-                <img src="./images/tools/card.jpg" alt="платежная карта"> </img>
+                <img srcset="./images/1x2x/tools/card_1x.jpg 1x,
+                                                        ./images/1x2x/tools/card_2x.jpg 2x,"
+                    src="./images/1x2x/tools/card_1x.jpg" alt="платежная карта" />
             </div>
             <h3 class="tools__title">Benchmarks</h3>
             <p class="tools__text">See how you stack up against comparable companies in similar stages.</p>
@@ -163,7 +172,9 @@
 
             <li class="tools__item">
                 <div class="tools__img">
-                    <img src="./images/tools/calc.jpg" alt="калькулятор"> </img>
+                    <img srcset="./images/1x2x/tools/calc_1x.jpg 1x,
+                                                                            ./images/1x2x/tools/calc_2x.jpg 2x,"
+                        src="./images/1x2x/tools/calc_1x.jpg" alt="калькулятор" />
                 </div>
                 <h3 class="tools__title">Pricing Audit</h3>
                 <p class="tools__text">Benchmark the health of your monetization and pricing strategy.</p>
@@ -171,7 +182,9 @@
 
             <li class="tools__item">
                 <div class="tools__img">
-                    <img src="./images/tools/camera.jpg" alt="фотокамера"> </img>
+                <img srcset="./images/1x2x/tools/cam_1x.jpg 1x,
+                    ./images/1x2x/tools/cam_2x.jpg 2x,"
+                    src="./images/1x2x/tools/cam_1x.jpg" alt="камера" />
                 </div>
                 <h3 class="tools__title">Retention Audit</h3>
                 <p class="tools__text">Audit where revenue leakage exists and where you can increase retention.</p>
@@ -219,7 +232,7 @@
         
     <li class="tarif__item">
         <p class="tarif__title">Enterprise</p>
-        <h3 class="tarif__price">$49/ <span class="month">/month</span></h3>
+        <h3 class="tarif__price">$49<span class="month">/month</span></h3>
         <ul class="tarif__list2">
             <li class="tarif__item2">Unlimited Website</li>
             <li class="tarif__item2">50 GB Hosting</li>
