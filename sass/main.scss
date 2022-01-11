@@ -1,6 +1,11 @@
 @import "./utils/variables";
 @import "./components/container";
 @import "./base/reset_style";
+
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/clients";
+@import "./layout/subscription";
+@import "./layout/metrics";
+@import "./layout/tools";
+@import "./layout/footer";

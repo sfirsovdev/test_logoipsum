@@ -123,7 +123,7 @@ ul {
 .sitenav__link {
   display: block;
   position: relative;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 15px;
   line-height: 1.3;
   text-decoration: none;
@@ -176,7 +176,7 @@ ul {
 
 .hero__title {
   padding-top: 92px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 80px;
   line-height: 0.9;
   color: #19191b;
@@ -194,7 +194,8 @@ ul {
 .hero__text {
   margin-top: 30px;
   margin-bottom: 0;
-  font-weight: 400px;
+  font-family: Mulish;
+  font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
   color: var(--textcolor);
@@ -208,7 +209,7 @@ ul {
 }
 
 .hero__img {
-  margin-left: 77px;
+  margin-left: 5%;
 }
 
 .hero__down {
@@ -273,4 +274,184 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style-type: none;
+}
+
+.subscription {
+  margin-top: 159px;
+}
+
+.subscription__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.subscription__text {
+  margin-top: 30px;
+  font-family: Mulish;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--textcolor);
+}
+
+.subscription__learnmore {
+  margin-top: 30px;
+}
+
+.subscription__block {
+  margin-left: 165px;
+  margin-top: 15%;
+}
+
+.subscription__href {
+  text-decoration: none;
+  color: #5454d4;
+  -webkit-transition: color 250ms linear, background-color 250ms linear;
+  transition: color 250ms linear, background-color 250ms linear;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscription__href:hover, .subscription__href:focus {
+  color: #ff7143;
+}
+
+.metrics {
+  margin-top: 83px;
+}
+
+.metrics__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.metrics__text {
+  margin-top: 30px;
+  font-family: Mulish;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--textcolor);
+}
+
+.metrics__learnmore {
+  margin-top: 30px;
+}
+
+.metrics__block {
+  margin-top: 15%;
+}
+
+.metrics__href {
+  text-decoration: none;
+  color: #5454d4;
+  -webkit-transition: color 250ms linear, background-color 250ms linear;
+  transition: color 250ms linear, background-color 250ms linear;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.metrics__href:hover, .metrics__href:focus {
+  color: #ff7143;
+}
+
+.metrics__img {
+  margin-left: 158px;
+}
+
+.tools {
+  margin-top: 138px;
+}
+
+.tools__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+}
+
+.tools__img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 151px;
+  height: 97px;
+}
+
+.tools__item {
+  text-align: center;
+  padding-right: 20px;
+}
+
+.tools__item:last-child {
+  padding-right: 0;
+}
+
+.tools__title {
+  margin-top: 7px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000;
+}
+
+.tools__text {
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 150px;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.footerbutton {
+  background-color: #f7f7fb;
+  color: #000;
+  border: solid 5px #f7f7fb;
+  margin-left: 0;
+  height: 65px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+  -webkit-transition: color 250ms linear, background-color 250ms linear;
+  transition: color 250ms linear, background-color 250ms linear;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footerbutton:hover, .footerbutton:focus {
+  background-color: #5454d4;
+  color: #ffffff;
+}
+
+.footer__bigbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 170px;
+}
+
+.leftbutton {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rightbutton {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }

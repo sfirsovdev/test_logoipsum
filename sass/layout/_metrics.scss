@@ -1,0 +1,42 @@
+.metrics {
+  margin-top: 83px;
+}
+
+.metrics__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.metrics__text {
+  margin-top: 30px;
+  font-family: Mulish;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--textcolor);
+}
+
+.metrics__learnmore {
+  margin-top: 30px;
+}
+
+.metrics__block {
+  margin-top: 15%;
+}
+
+.metrics__href {
+  text-decoration: none;
+  color: #5454d4;
+  transition: color 250ms linear, background-color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #ff7143;
+  }
+}
+
+.metrics__img {
+  margin-left: 158px;
+}
