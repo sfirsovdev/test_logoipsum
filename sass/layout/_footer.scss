@@ -4,8 +4,12 @@
 }
 
 .tarif__list {
-  display: flex;
+  display: inline-block;
   list-style-type: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    list-style-type: none;
+  }
 }
 
 .tarif__title {

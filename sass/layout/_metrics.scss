@@ -40,3 +40,10 @@
 .metrics__img {
   margin-left: 158px;
 }
+
+.tools__list {
+  display: inline-block;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
