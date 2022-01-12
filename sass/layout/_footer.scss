@@ -52,16 +52,30 @@
   background-color: #f8f8f8;
   border-radius: 10px;
   cursor: pointer;
+  transition: color 250ms linear, background-color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    height: 110%;
+    background-color: #ff7143;
+    color: #fff;
+    transition: color 250ms linear, background-color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover .tarif__price,
+    &:focus .tarif__price {
+      color: #fff;
+    }
+  }
   &:last-child {
     margin-right: 0;
   }
   transition: color 250ms linear, background-color 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
+  &:hover .buttontarif,
+  &:focus .buttontarif {
+    background-color: #9f3919;
+    border-color: #9f3919;
     color: #fff;
-    height: 110%;
-    background-color: #ff7143;
   }
 }
 
@@ -88,10 +102,10 @@
   border-radius: 10px;
   transition: color 250ms linear, background-color 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    color: #fff;
-    background-color: #9f3919;
-    border-color: #9f3919;
-  }
+  // &:hover,
+  // &:focus {
+  //   color: #fff;
+  //   background-color: #9f3919;
+  //   border-color: #9f3919;
+  // }
 }

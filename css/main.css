@@ -540,16 +540,35 @@ ul {
   transition: color 250ms linear, background-color 250ms linear;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms linear, background-color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tarif__item:hover, .tarif__item:focus {
+  height: 110%;
+  background-color: #ff7143;
+  color: #fff;
+  -webkit-transition: color 250ms linear, background-color 250ms linear;
+  transition: color 250ms linear, background-color 250ms linear;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tarif__item:hover:hover .tarif__price,
+.tarif__item:hover:focus .tarif__price, .tarif__item:focus:hover .tarif__price,
+.tarif__item:focus:focus .tarif__price {
+  color: #fff;
 }
 
 .tarif__item:last-child {
   margin-right: 0;
 }
 
-.tarif__item:hover, .tarif__item:focus {
+.tarif__item:hover .buttontarif,
+.tarif__item:focus .buttontarif {
+  background-color: #9f3919;
+  border-color: #9f3919;
   color: #fff;
-  height: 110%;
-  background-color: #ff7143;
 }
 
 .tarif__item2 {
@@ -578,10 +597,4 @@ ul {
   transition: color 250ms linear, background-color 250ms linear;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.buttontarif:hover, .buttontarif:focus {
-  color: #fff;
-  background-color: #9f3919;
-  border-color: #9f3919;
 }
