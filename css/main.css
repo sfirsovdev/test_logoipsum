@@ -545,6 +545,7 @@ ul {
 }
 
 .tarif__item:hover, .tarif__item:focus {
+  margin-top: -2%;
   height: 110%;
   background-color: #ff7143;
   color: #fff;
@@ -593,8 +594,4 @@ ul {
   color: #5454d4;
   border: 1px solid #eae9f2;
   border-radius: 10px;
-  -webkit-transition: color 250ms linear, background-color 250ms linear;
-  transition: color 250ms linear, background-color 250ms linear;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
