@@ -1,6 +1,6 @@
 .button {
   margin-top: 30px;
-  margin-left: 145px;
+  margin-left: auto;
   padding-top: 19px;
   padding-bottom: 19px;
   padding-left: 59px;
@@ -17,5 +17,17 @@
   &:hover,
   &:focus {
     background-color: orangered;
+  }
+  @media screen and (min-width: 768px) {
+    margin-left: 145px;
+  }
+}
+
+.topbutton {
+  @media screen and (min-width: 421px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: block;
   }
 }

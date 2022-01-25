@@ -1,11 +1,17 @@
 .tools {
-  margin-top: 138px;
+  margin-top: 30px;
+  @media screen and (min-width: 768px) {
+    margin-top: 138px;
+  }
 }
 
 .tools__list {
-  display: flex;
+  display: block;
   justify-content: center;
   list-style-type: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .tools__img {
