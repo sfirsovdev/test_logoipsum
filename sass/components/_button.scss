@@ -24,10 +24,45 @@
 }
 
 .topbutton {
-  @media screen and (min-width: 421px) {
-    display: none;
-  }
+  display: none;
   @media screen and (min-width: 1200px) {
     display: block;
   }
+}
+
+.open-menu-btn {
+  margin-top: 48px;
+  margin-left: auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 24px;
+  height: 24px;
+  background-color: #ff7143;
+  border: solid 1px black;
+  border-radius: 4px;
+  display: block;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.close-menu-btn {
+  margin-top: 28px;
+  margin-left: auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 24px;
+  height: 24px;
+  background-color: #ff7143;
+  border: solid 1px black;
+  border-radius: 4px;
+  display: block;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.menu-icon {
+  width: 20px;
+  height: 20px;
 }
