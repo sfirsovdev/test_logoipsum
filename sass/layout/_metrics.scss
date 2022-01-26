@@ -9,7 +9,7 @@
   font-weight: 700;
   font-size: 30px;
   line-height: 1.2;
-  color: #000;
+  color: var(--second-text-color);
   @media screen and (min-width: 768px) {
     font-size: 50px;
   }
@@ -34,12 +34,12 @@
 
 .metrics__href {
   text-decoration: none;
-  color: #5454d4;
+  color: var(--accent-text-color);
   transition: color 250ms linear, background-color 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    color: #ff7143;
+    color: var(--accent-text-color2);
   }
 }
 

@@ -41,7 +41,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    color: #19191b;
+    color: var(--background-text-color2);
   }
 }
 
@@ -67,7 +67,7 @@
   padding-bottom: 48px;
   padding-left: 40px;
   padding-right: 15px;
-  background-color: #ffffff;
+  background-color: var(--background-text-color);
 }
 
 .mobmenu {
@@ -76,10 +76,10 @@
 
 .mobmenu__link {
   font-size: 25px;
-  color: #19191b;
+  color: var(--background-text-color2);
   text-decoration: none;
 }
 
 .active {
-  color: orange;
+  color: var(--accent-text-color2);
 }

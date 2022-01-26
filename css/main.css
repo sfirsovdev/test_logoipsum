@@ -1,14 +1,15 @@
-@charset "UTF-8";
 :root {
   --main-text-color: #757575;
-  --second-text-color: #212121;
-  --accent-text-color: #2196f3;
-  --background-color: #2f303a;
-  --background-text-color: #0f5996;
-  --section-color: #f5f4fa;
-  --border-bottom: #ececec;
-  --border-portfolio-cards: #eeeeee;
-  --border-portfolio-cardsе: #000;
+  --second-text-color: #000000;
+  --accent-text-color: #5454d4;
+  --accent-text-color2: #ff7143;
+  --background-color: #f7f7fb;
+  --background-color2: #f8f8f8;
+  --background-color3: #9f3919;
+  --background-text-color: #ffffff;
+  --background-text-color2: #19191b;
+  --border-color: #e7e7e7;
+  --border-color2: #eae9f2;
   --textcolor: #696871;
 }
 
@@ -100,13 +101,13 @@ body {
 }
 
 .open-menu-btn {
-  margin-top: 48px;
+  margin-top: 40px;
   margin-left: auto;
   padding-left: 2px;
   padding-right: 2px;
-  width: 24px;
-  height: 24px;
-  background-color: #ff7143;
+  width: 36px;
+  height: 36px;
+  background-color: var(--background-text-color);
   border: solid 1px black;
   border-radius: 4px;
   display: block;
@@ -119,13 +120,13 @@ body {
 }
 
 .close-menu-btn {
-  margin-top: 28px;
+  margin-top: 19px;
   margin-left: auto;
   padding-left: 2px;
   padding-right: 2px;
-  width: 24px;
-  height: 24px;
-  background-color: #ff7143;
+  width: 36px;
+  height: 36px;
+  background-color: var(--background-text-color);
   border: solid 1px black;
   border-radius: 4px;
   display: block;
@@ -138,8 +139,8 @@ body {
 }
 
 .menu-icon {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 16px;
 }
 
 html,
@@ -213,7 +214,7 @@ ul {
 }
 
 .sitenav__link:hover, .sitenav__link:focus {
-  color: #19191b;
+  color: var(--background-text-color2);
 }
 
 .nav__href {
@@ -238,7 +239,7 @@ ul {
   padding-bottom: 48px;
   padding-left: 40px;
   padding-right: 15px;
-  background-color: #ffffff;
+  background-color: var(--background-text-color);
 }
 
 .mobmenu {
@@ -247,12 +248,12 @@ ul {
 
 .mobmenu__link {
   font-size: 25px;
-  color: #19191b;
+  color: var(--background-text-color2);
   text-decoration: none;
 }
 
 .active {
-  color: orange;
+  color: var(--accent-text-color2);
 }
 
 .hero {
@@ -270,7 +271,7 @@ ul {
   font-weight: 700;
   font-size: 30px;
   line-height: 0.9;
-  color: #19191b;
+  color: var(--background-text-color2);
 }
 
 @media screen and (min-width: 768px) {
@@ -317,8 +318,8 @@ ul {
 .herobutton {
   margin-top: 0;
   margin-left: 0;
-  background-color: #5454d4;
-  border-color: #5454d4;
+  background-color: var(--accent-text-color);
+  border-color: var(--accent-text-color);
 }
 
 .hero__img {
@@ -349,7 +350,7 @@ ul {
 
 .hero__down {
   justify-content: center;
-  fill: #000000;
+  fill: var(--second-text-color);
   margin-top: 17px;
   width: 34px;
   height: 34px;
@@ -379,7 +380,7 @@ ul {
   margin-right: auto;
   border: 1px solid;
   border-radius: 50%;
-  border-color: #e7e7e7;
+  border-color: var(--border-color);
   cursor: pointer;
   width: 4em;
   height: 4em;
@@ -394,8 +395,8 @@ ul {
   }
   .heropoiner:hover, .heropoiner:focus {
     border: 2px solid;
-    border-color: #5454d4;
-    background-color: #ff7143;
+    border-color: var(--accent-text-color);
+    background-color: var(--accent-text-color2);
   }
 }
 
@@ -445,7 +446,7 @@ ul {
   font-weight: 700;
   font-size: 30px;
   line-height: 1.2;
-  color: #000;
+  color: var(--second-text-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -480,13 +481,13 @@ ul {
 
 .subscription__href {
   text-decoration: none;
-  color: #5454d4;
+  color: var(--accent-text-color);
   transition: color 250ms linear, background-color 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscription__href:hover, .subscription__href:focus {
-  color: #ff7143;
+  color: var(--accent-text-color2);
 }
 
 .subscription__img1 {
@@ -519,7 +520,7 @@ ul {
   font-weight: 700;
   font-size: 30px;
   line-height: 1.2;
-  color: #000;
+  color: var(--second-text-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -547,13 +548,13 @@ ul {
 
 .metrics__href {
   text-decoration: none;
-  color: #5454d4;
+  color: var(--accent-text-color);
   transition: color 250ms linear, background-color 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .metrics__href:hover, .metrics__href:focus {
-  color: #ff7143;
+  color: var(--accent-text-color2);
 }
 
 .metrics__img {
@@ -638,7 +639,7 @@ ul {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.5;
-  color: #000;
+  color: var(--second-text-color);
 }
 
 .tools__text {
@@ -659,7 +660,7 @@ ul {
   font-weight: 700;
   font-size: 30px;
   line-height: 1.2;
-  color: #000;
+  color: var(--second-text-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -675,9 +676,9 @@ ul {
 }
 
 .planbutton {
-  background-color: #f7f7fb;
-  color: #000;
-  border: solid 5px #f7f7fb;
+  background-color: var(--background-color);
+  color: var(--second-text-color);
+  border: solid 5px var(--background-color);
   margin-left: 0;
   height: 65px;
   font-weight: 700;
@@ -688,8 +689,8 @@ ul {
 }
 
 .planbutton:hover, .planbutton:focus {
-  background-color: #5454d4;
-  color: #ffffff;
+  background-color: var(--accent-text-color);
+  color: var(--background-text-color);
 }
 
 .plan__bigbutton {
@@ -788,13 +789,13 @@ ul {
   font-weight: 700;
   font-size: 60px;
   line-height: 1;
-  color: #000;
+  color: var(--second-text-color);
   transition: color 250ms linear, background-color 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tarif__price:hover, .tarif__price:focus {
-  color: #fff;
+  color: var(--background-text-color);
 }
 
 .tarif__list2 {
@@ -806,7 +807,7 @@ ul {
 .tarif__item {
   width: auto;
   height: 100%;
-  background-color: #f8f8f8;
+  background-color: var(--background-color2);
   border-radius: 10px;
   cursor: pointer;
   transition: color 250ms linear, background-color 250ms linear;
@@ -831,7 +832,7 @@ ul {
 .tarif__item:hover, .tarif__item:focus {
   margin-top: -2%;
   height: 110%;
-  background-color: #ff7143;
+  background-color: var(--accent-text-color2);
   color: #fff;
   transition: color 250ms linear, background-color 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -840,7 +841,7 @@ ul {
 .tarif__item:hover:hover .tarif__price,
 .tarif__item:hover:focus .tarif__price, .tarif__item:focus:hover .tarif__price,
 .tarif__item:focus:focus .tarif__price {
-  color: #fff;
+  color: var(--background-text-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -851,9 +852,9 @@ ul {
 
 .tarif__item:hover .buttontarif,
 .tarif__item:focus .buttontarif {
-  background-color: #9f3919;
-  border-color: #9f3919;
-  color: #fff;
+  background-color: var(--background-color3);
+  border-color: var(--background-color3);
+  color: var(--background-text-color);
 }
 
 .tarif__item2 {
@@ -874,9 +875,9 @@ ul {
   margin-left: 14px;
   margin-right: 14px;
   width: 240px;
-  background-color: #fff;
-  color: #5454d4;
-  border: 1px solid #eae9f2;
+  background-color: var(--background-text-color);
+  color: var(--accent-text-color);
+  border: 1px solid var(--border-color2);
   border-radius: 10px;
 }
 

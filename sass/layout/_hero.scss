@@ -10,7 +10,7 @@
   font-weight: 700;
   font-size: 30px;
   line-height: 0.9;
-  color: #19191b;
+  color: var(--background-text-color2);
   @media screen and (min-width: 768px) {
     padding-top: 92px;
     font-size: 50px;
@@ -45,8 +45,8 @@
 .herobutton {
   margin-top: 0;
   margin-left: 0;
-  background-color: #5454d4;
-  border-color: #5454d4;
+  background-color: var(--accent-text-color);
+  border-color: var(--accent-text-color);
 }
 
 .hero__img {
@@ -68,7 +68,7 @@
 
 .hero__down {
   justify-content: center;
-  fill: #000000;
+  fill: var(--second-text-color);
   margin-top: 17px;
   width: 34px;
   height: 34px;
@@ -92,7 +92,7 @@
   margin-right: auto;
   border: 1px solid;
   border-radius: 50%;
-  border-color: #e7e7e7;
+  border-color: var(--border-color);
   cursor: pointer;
   width: 4em;
   height: 4em;
@@ -104,8 +104,8 @@
     &:hover,
     &:focus {
       border: 2px solid;
-      border-color: #5454d4;
-      background-color: #ff7143;
+      border-color: var(--accent-text-color);
+      background-color: var(--accent-text-color2);
     }
   }
 }

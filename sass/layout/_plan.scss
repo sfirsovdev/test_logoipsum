@@ -9,7 +9,7 @@
   font-weight: 700;
   font-size: 30px;
   line-height: 1.2;
-  color: #000;
+  color: var(--second-text-color);
   @media screen and (min-width: 768px) {
     font-size: 50px;
   }
@@ -19,9 +19,9 @@
 }
 
 .planbutton {
-  background-color: #f7f7fb;
-  color: #000;
-  border: solid 5px #f7f7fb;
+  background-color: var(--background-color);
+  color: var(--second-text-color);
+  border: solid 5px var(--background-color);
   margin-left: 0;
   height: 65px;
   font-weight: 700;
@@ -31,8 +31,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    background-color: #5454d4;
-    color: #ffffff;
+    background-color: var(--accent-text-color);
+    color: var(--background-text-color);
   }
 }
 
