@@ -17,10 +17,14 @@
 
 .tarif__title {
   margin-top: 34px;
+  padding-top: 20px;
   text-align: center;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
+  @media screen and (min-width: 768px) {
+    padding-top: 0;
+  }
 }
 
 .month {
