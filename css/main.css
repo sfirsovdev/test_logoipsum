@@ -142,7 +142,8 @@ body {
   height: 20px;
 }
 
-.body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
