@@ -7,11 +7,12 @@
 
 .subscription__title {
   font-weight: 700;
-  font-size: 30px;
-  line-height: 1.2;
+  font-size: 26px;
+  line-height: 1.3;
   color: var(--second-text-color);
   @media screen and (min-width: 768px) {
     font-size: 50px;
+    line-height: 1.2;
   }
 }
 
