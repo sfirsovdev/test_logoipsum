@@ -1,5 +1,4 @@
 .button {
-  margin-top: 30px;
   margin-left: auto;
   padding-top: 19px;
   padding-bottom: 19px;
@@ -31,15 +30,13 @@
 }
 
 .open-menu-btn {
-  margin-top: 22px;
   margin-left: auto;
   padding-left: 2px;
   padding-right: 2px;
   width: 36px;
   height: 36px;
   background-color: var(--background-text-color);
-  border: solid 1px black;
-  border-radius: 4px;
+  border: solid 0px black;
   display: block;
   @media screen and (min-width: 768px) {
     display: none;
@@ -54,8 +51,7 @@
   width: 36px;
   height: 36px;
   background-color: var(--background-text-color);
-  border: solid 1px black;
-  border-radius: 4px;
+  border: solid 0px black;
   display: block;
   @media screen and (min-width: 768px) {
     display: none;
@@ -63,8 +59,8 @@
 }
 
 .menu-icon {
-  width: 18px;
-  height: 16px;
+  width: 28px;
+  height: 32px;
 }
 
 .mobmenu__item {
