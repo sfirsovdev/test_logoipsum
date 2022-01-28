@@ -17,14 +17,27 @@
     
 <header class="header">
     <div class="container">
-<nav class="nav">
+
     <a class="nav__href" href="#">
     <svg class="nav__icon">
         <use href="./images/svg/icons.svg#icon-Logo-Color"></use>
     </svg>
     </a>
+    <button class="open-menu-btn" icon-menu_burger>
+        <svg class="menu-icon">
+            <use href="./images/svg/icons.svg#icon-menu"></use>
+        </svg>
+    </button>
 
-    <ul class="sitenav">
+    <nav class="nav mob-menu">
+
+    <button class="close-menu-btn">
+        <svg class="menu-iconclose">
+            <use href="./images/svg/icons.svg#icon-close" width="28" height="32"></use>
+        </svg>
+    </button>
+
+    <ul class="sitenav ">
         <li class="sitenav__item">
             <a href="./index.html" class="sitenav__link active">Home</a>
         </li>
@@ -40,36 +53,7 @@
     </ul>
 <button class="button topbutton">Get Started</button>
 
-<button class="open-menu-btn" icon-menu_burger>
-    <svg class="menu-icon">
-        <use href="./images/svg/icons.svg#icon-menu"></use>
-    </svg>
-</button>
-
-<div class="mob-menu">
-    <button class="close-menu-btn">
-        <svg class="menu-iconclose">
-            <use href="./images/svg/icons.svg#icon-close" width="28" height="32"></use>
-        </svg>
-    </button>
-
-    <div class="mob-menu-top">
-        <ul class="mobmenu">
-            <li class="mobmenu__item">
-                <a href="./index.html" class="mobmenu__link active">Home</a>
-            </li>
-            <li class="mobmenu__item">
-                <a href="/index.html" class="mobmenu__link">Features</a>
-            </li>
-            <li class="mobmenu__item">
-                <a href="/index.html" class="mobmenu__link">Pricing</a>
-            </li>
-            <li class="mobmenu__item">
-                <a href="/index.html" class="mobmenu__link">Blog</a>
-            </li>
-        </ul>
-    </div>
-
+   
 
 </nav>
 </div>
@@ -147,6 +131,7 @@
                     </svg>
                 </a>
             </li>
+            
         </ul>
         
         </div>

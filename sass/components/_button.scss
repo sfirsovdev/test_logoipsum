@@ -36,7 +36,7 @@
   width: 36px;
   height: 36px;
   background-color: var(--background-text-color);
-  border: solid 0px black;
+  border: none;
   display: block;
   @media screen and (min-width: 768px) {
     display: none;
@@ -51,7 +51,7 @@
   width: 36px;
   height: 36px;
   background-color: var(--background-text-color);
-  border: solid 0px black;
+  border: none;
   display: block;
   @media screen and (min-width: 768px) {
     display: none;
